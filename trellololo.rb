@@ -5,6 +5,6 @@ get '/' do
 end
 
 post '/trello/callback' do
-  puts '[Params]'
-  p params
+  '[Params]'
+  puts params
 end
