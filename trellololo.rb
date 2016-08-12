@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'json'
 require 'rest_client'
-require 'activerecord'
+# require 'activerecord'
 
 CREATE_ACTION       = 'createCard'.freeze
 OPTIMIZATIONS_LIST  = 624902
