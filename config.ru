@@ -1,0 +1,2 @@
+require './trellololo'
+run Trellololo
