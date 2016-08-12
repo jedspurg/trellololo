@@ -1,2 +1,2 @@
 require './trellololo'
-run Trellololo
+run Sinatra::Application
