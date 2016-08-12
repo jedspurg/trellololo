@@ -1,6 +1,6 @@
 require 'sinatra'
 
-enable :logging, :dump_errors, :raise_errors
+set :show_exceptions, true
 
 log = File.new("sinatra.log", "a")
 STDOUT.reopen(log)
@@ -10,9 +10,11 @@ before do
   puts '[Params]'
   p params
 end
+
 get '/' do
   'Hello world!'
 end
+
 post '/trello/callback' do
 
 end
