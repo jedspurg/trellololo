@@ -5,5 +5,5 @@ get '/' do
 end
 
 post '/trello/callback' do
-  [200, {}, "Hello from a Trellololo world!" + @request.params]
+  [200, {}, "Hello from a Trellololo world! Params: #{params}"]
 end
