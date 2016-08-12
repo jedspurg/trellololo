@@ -2,7 +2,7 @@ require 'sinatra'
 require 'json'
 
 get '/' do
-  ENV['TW_KEY'].inspect
+  ENV
 end
 
 post '/trello/callback' do
