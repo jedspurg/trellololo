@@ -2,7 +2,7 @@ require 'sinatra'
 require 'json'
 
 get '/' do
-  ENV
+  ENV['TW_LOGIN']
 end
 
 post '/trello/callback' do
